@@ -1,8 +1,8 @@
-🧠 HackerSpace
+# 🧠 HackerSpace
 
 A web-based platform inspired by Mr. Robot aesthetics, designed to simulate a hacker-style community where users can register, log in, and interact with dynamically generated data.
 
-🚀 Overview
+# 🚀 Overview
 
 HackerSpace is a Flask-powered web application that combines:
 
@@ -13,13 +13,14 @@ Dynamic data visualization
 
 The project focuses on learning full-stack fundamentals, including backend logic, database design, and frontend rendering.
 
-🛠️ Tech Stack
+# 🛠️ Tech Stack
 Backend: Python (Flask)
 Database: MySQL
 Data Handling: pandas
 Frontend: HTML, CSS (Bootstrap)
 Templating: Jinja2
-⚙️ Features
+
+# ⚙️ Features
 🔐 User registration and login system
 🗄️ MySQL database integration
 📊 Display CSV / database data dynamically
@@ -34,7 +35,8 @@ Hackerspace/
 ├── database/           # SQL files / schemas
 ├── data/               # CSV datasets
 └── README.md
-🔧 Installation & Setup
+
+# 🔧 Installation & Setup
 1. Clone the repository
 git clone https://github.com/LoelStark/Hackerspace.git
 cd Hackerspace
@@ -65,7 +67,7 @@ User roles (admin / members)
 Real-time dashboards
 API integration
 Advanced data analytics
-🤝 Contributing
+#  🤝 Contributing
 
 Contributions are welcome.
 
