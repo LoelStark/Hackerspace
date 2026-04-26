@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.text-success{
+    text-shadow: green;
+}
+.terminal-box{
+    background-color: rgb(28, 26, 26);
+    
+}
+.cursor{
+    color: green;
+    animation: blink 1s infinite;
+}
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.cursor::after {
+  content: "|";
+}

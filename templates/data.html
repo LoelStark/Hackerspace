@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block title %}
+data
+{%endblock%}
+
+{% block content %}
+
+<table>
+    <tr>
+        <th>Age</th>
+        <th>Gender</th>
+        <th>Daily Social Media Hours</th>
+        <th>Platform Usage</th>
+        <th>Sleep Hours</th>
+        <th>Screentime before sleep</th>
+        <th>Academic Perfomance</th>
+    </tr>
+
+    {% if data %}
+        {% for data in data %}
+        <tr>
+            <td>{{ data.age }}</td>
+            <td>{{ data.gender }}</td>
+            <td>{{ data.daily_social_media_usage }}</td>
+            <td>{{ data.platform_usage }}</td>
+            <td>{{ data.sleep_hours }}</td>
+            <td>{{ data.screen_time_before_sleep }}</td>
+            <td>{{ data.academic_perfomance }}</td>
+        </tr>
+        {% endfor %}
+    {% endif %}
+</table>
+
+{% endblock %}
