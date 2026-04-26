@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}
+register
+{%endblock%}
+
+{% block content %}
+    <div class="mb-3">
+        <h1 class="text-success">
+            Hello friend...
+            <span class="cursor"></span>
+        </h1>
+    </div>
+<p class="mb-3">
+    You're new, we should give you a name friend. I can't exactly pick one for you<br>
+    but you can fill in your information below so we can contiue...
+</p>
+<div class="p-4 border border-success terminal-box">
+    <div class="text-success">
+        <form action="POST" class="container">
+            <label for="name">Name: </label>
+            <input type="text" placeholder="Enter your name"><br><br>
+            <label for="surname">Surname: </label>
+            <input type="text" placeholder="Enter your Surnamename"><br><br>
+            <label for="email">Email: </label>
+            <input type="email" placeholder="Enter your personal email"><br><br>
+            <label for="password">Password: </label>
+            <input type="text" placeholder="Secure your account"><br><br>
+            <button type="submit" class="btn btn-outline-success">Done</button> 
+            <br>
+                You're a regular?
+                <a href="login.html" class="btn btn-outline-success">Click me</a>   
+        </form>
+    </div>
+</div>
+{% endblock %}
